@@ -8,7 +8,7 @@ class Anagram
  end 
 
 def match
-  
+  word.collect.split do ||
 end  
   
 end   
