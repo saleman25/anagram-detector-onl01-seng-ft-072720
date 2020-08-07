@@ -8,8 +8,8 @@ class Anagram
  end 
 
 def match
-  word.each do |words|
-    if word.split("") == 
+  word.each do |other_words|
+    if word.split("") == other_words
 end  
   
 end   
