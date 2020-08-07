@@ -13,6 +13,8 @@ def match
     if word.split.sort("") == other_words.split
       matches << other_words
 end  
-
+end 
+matches
+end
   
 end   
