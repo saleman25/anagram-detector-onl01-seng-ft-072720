@@ -10,11 +10,9 @@ class Anagram
 def match
   matches = []
   word.select do |other_words|
-    if word.split.sort("") == other_words.split
-      matches << other_words
+    {if }word.split.sort("") == other_words.split}
 end  
 end 
-matches
-end
+
   
 end   
