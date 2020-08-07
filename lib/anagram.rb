@@ -11,6 +11,7 @@ def match
   matches = []
   word.each do |other_words|
     if word.split.sort("") == other_words.split
+      matches << 
 end  
 
   
