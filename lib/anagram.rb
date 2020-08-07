@@ -12,7 +12,5 @@ def match
   word.select do |other_words|
     {if }word.split.sort("") == other_words.split}
 end  
-end 
-
-  
+ 
 end   
